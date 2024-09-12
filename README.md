@@ -1,6 +1,4 @@
-# MatPlotGraphs
- Alguns graficos que fiz usado a bibloteca matplotlib para fazer alguns graáficos e estou disponibilizando ele para que possam esturar e recorrer em algum momento de dúvida ( até pra mim mesmo kk )
-# Gráficos com Matplotlib, NumPy e Pandas
+#Gráficos com Matplotlib, NumPy e Pandas
 
 Este repositório contém alguns gráficos que desenvolvi utilizando as bibliotecas **Matplotlib**, **NumPy** e **Pandas**. O objetivo deste projeto é oferecer uma base para quem está começando ou deseja rever conceitos de visualização de dados com essas bibliotecas. Também estou disponibilizando para que eu mesmo possa recorrer a ele no futuro (vai que eu esqueço alguma coisa, né? 😂).
 
