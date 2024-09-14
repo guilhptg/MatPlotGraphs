@@ -1,0 +1,33 @@
+# Autor: Guilherme Portugal
+# Original: Set black background default line colors to white.
+
+# Adobe Color
+
+lines.color: white
+patch.edgecolor: white
+
+text.color: white
+
+axes.facecolor: black
+axes.edgecolor: white
+axes.labelcolor: white
+axes.prop_cycle: cycler('color', ['#22F5F2', '#317CF5', '#31BAF5', '#27F5AC', '#7179F4', '#93D7F5'])
+axes.titlecolor: dimgray
+
+xtick.color: white
+ytick.color: white
+
+grid.color: white
+
+figure.facecolor: black
+figure.edgecolor: black
+
+savefig.facecolor: black
+savefig.edgecolor: black
+
+### Boxplots
+boxplot.boxprops.color: white
+boxplot.capprops.color: white
+boxplot.flierprops.color: white
+boxplot.flierprops.markeredgecolor: white
+boxplot.whiskerprops.color: white

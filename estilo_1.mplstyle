@@ -1,0 +1,5 @@
+axes.title : 24
+axes.labelsize : 20
+xticks.labelsize : 16
+yticks.labelsize : 16
+font.weight : bold
