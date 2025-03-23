@@ -126,8 +126,8 @@ def atualizar_graficos(ano_selecionado):
     return fig_categorias, fig_vendas
 
 # Rodar o app
-if __name__ == '__main__':
-    app.run(debug=True, use_reloader=False)
+# if __name__ == '__main__':
+#     app.run(debug=True, use_reloader=False)
 
 
 def run_dash():
