@@ -4,6 +4,7 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
+from threading import Thread
 
 # Dados
 meses = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez']
@@ -126,4 +127,12 @@ def atualizar_graficos(ano_selecionado):
 
 # Rodar o app
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)
+
+
+def run_dash():
+    app.run(debug=False, use_reloader=False, port=8050, host='0.0.0.0')
+
+thread = Thread(target=run_dash)
+thread.daemon = True
+thread.start()
