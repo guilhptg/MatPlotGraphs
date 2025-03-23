@@ -34,6 +34,11 @@ app.layout = dbc.Container([
         dbc.Col(html.H2("📊 Dashboard de Vendas", style={'color': 'black'}), width=12),
         className="mb-4"
     ),
+    # Gráfico de Vendas Mensais
+    dbc.Row(
+        dbc.Col(dcc.Graph(id='grafico_vendas'), width=12),
+        className="mb-4"
+    ),
     # Filtros
     dbc.Row([
         dbc.Col([
@@ -55,11 +60,6 @@ app.layout = dbc.Container([
             )
         ], width=6)
     ], className="mb-4"),
-    # Gráfico de Vendas Mensais
-    dbc.Row(
-        dbc.Col(dcc.Graph(id='grafico_vendas'), width=12),
-        className="mb-4"
-    ),
     # Gráficos de Produtos e Categorias (lado a lado)
     dbc.Row([
         dbc.Col(dcc.Graph(id='grafico_produtos'), width=6),
