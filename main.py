@@ -143,4 +143,4 @@ thread.start()
 st.title("📈 Dashboard Integrado no Streamlit")
 
 # 🔹 Incorporar o Dash no Streamlit usando um iframe
-st.components.v1.html('<iframe src="http://localhost:8050/dash/" width="100%" height="600px"></iframe>', height=2000)
+st.components.v1.html('<iframe src="http://localhost:8050/dash/" width="100%" height="600px"></iframe>', height=800 )
